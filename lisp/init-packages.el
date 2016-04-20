@@ -15,7 +15,8 @@
                smartparens
                js2-mode
                nodejs-repl
-               exec-path-from-shell 
+               exec-path-from-shell
+	       ;;popwin
             ) "Default packages")
 
 (setq package-selected-packages zilongshanren/packages)
@@ -53,7 +54,7 @@
 
 (load-theme 'monokai t)
 
-(require 'popwin)
-(popwin-mode t)
+;;(require 'popwin)
+;;(popwin-mode t)
 
 (provide 'init-packages)
