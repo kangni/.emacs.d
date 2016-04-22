@@ -3,7 +3,7 @@
 
 ;;设定语言环境为utf-8
 (setq current-language-environment "UTF-8")
-(setq default-input-method "chinese-py")
+;;(setq default-input-method "chinese-py")
 (setq locale-coding-system 'utf-8)
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
